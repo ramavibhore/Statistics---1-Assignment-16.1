@@ -1,0 +1,9 @@
+'''
+You survey households in your area to find the average rent they are paying. Find the
+standard deviation from the following data:
+$1550, $1700, $900, $850, $1000, $950.
+'''
+import numpy as np
+data=[1550, 1700, 900, 850, 1000, 950]
+sd=np.std(data)
+print('Standard Deviation from household survey is: ',sd)
